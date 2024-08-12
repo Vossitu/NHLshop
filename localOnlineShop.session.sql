@@ -1,6 +1,6 @@
 /* 
 This code deploy a database for an online shop with different table.
-The UML linked to this database can be found in the .jpg in the Git project.
+The UML linked to this database can be found in the .png in the Git project.
 */
 -- Create database
 CREATE DATABASE OnlineShop;
@@ -11,6 +11,7 @@ CREATE TABLE categories (
     id INT AUTO_INCREMENT PRIMARY KEY, -- PK
     name VARCHAR(255) NOT NULL, -- categorie's name 
     description TEXT 
+    );
 
 -- Products' Table
 CREATE TABLE products (
